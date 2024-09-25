@@ -1,0 +1,33 @@
+{
+  "name": "backend_assignment",
+  "version": "1.0.0",
+  "description": " converts numbers into their word",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest  --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishepoch/amardeep-jadhav.git"
+  },
+  "author": "Amardeep-Jadhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishepoch/amardeep-jadhav/issues"
+  },
+  "homepage": "https://github.com/manishepoch/amardeep-jadhav#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-validator": "^7.0.1",
+    "jest": "^29.7.0",
+    "multer": "^1.4.5-lts.1",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
